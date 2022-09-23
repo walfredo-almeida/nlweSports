@@ -68,8 +68,8 @@ function App() {
          <span className='text-zinc-400'>Publique um anúncio para encontrar novos players!</span>
          </div>
 
-         <button className='py-3 px-4 bg-violet-500 text-white hover:bg-violet-600 rounded flex'>
-            <MagnifyingGlassPlus/>
+         <button className='py-3 px-4 bg-violet-500 text-white hover:bg-violet-600 rounded flex items-start gap-3'>
+            <MagnifyingGlassPlus size={24}/>
             Publicar anúncio
          </button>
       </div>
